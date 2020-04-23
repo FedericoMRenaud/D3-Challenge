@@ -68,7 +68,7 @@ d3.csv("metro_data.csv").then(function(metroData) {
     .attr("fill", "lightblue")
     .attr("opacity", ".5");
 
-    var circletextGroup = chartGroup.selectAll()
+    var abrText = chartGroup.selectAll()
     .data(metroData)
     .enter()
     .append("text")
